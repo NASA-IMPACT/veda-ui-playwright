@@ -1,0 +1,17 @@
+{
+    "menuBtn":"//button[@aria-label='Open Global Navigation']",
+    "sections":{
+        "welcome":"//a[text()='Welcome']",
+        "discoveries":"//a[text()='Discoveries']",
+        "datasets":"//a[text()='Datasets']",
+        "analysis":"//a[text()='Analysis']",
+        "feedback":"//a[text()='Feedback']",
+        "about":"//a[text()='About']"
+    },
+    "area":{
+        "agriculture":"//a[text()='Agriculture']",
+        "airQuality":"//a[text()='Air Quality']",
+        "covid19":"//a[text()='COVID-19']",
+        "voidArea":"//a[text()='Void area']"
+    }
+}

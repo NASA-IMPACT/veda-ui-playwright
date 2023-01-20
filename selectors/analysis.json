@@ -1,0 +1,31 @@
+{
+    "universalCard":"//ol[contains(@class, 'card__CardList')]/li//h3[contains(text(),'varreplace')]/../../../..",
+    "universalHeader":"//h1[contains(@class, 'page__PageMainTitle')]",
+    "mapCanvas":"//canvas[@class='mapboxgl-canvas']",
+    "drawAreabtn":"//span[text()='Actions']/following-sibling::button[2]",
+    "areaText":"//h2[text()='Area']",
+    "startDateInput":"//input[@id='start-date']",
+    "endDateInput":"//input[@id='end-date']",
+    "generateBtn":"//*[text()='tick small icon']/../..//../*[contains(@class,'StyledButton')]",
+    "datasets":{
+        "No2":"//input[@id='no2-monthly']/following-sibling::span[contains(@class,'checkable__FormCheckableControl')]",
+        "No2_Diff":"//input[@id='no2-monthly-diff']/following-sibling::span[contains(@class,'checkable__FormCheckableControl')]"
+
+    },
+    "resultsView":{
+        "resultsLabel":"//div[contains(@class,'fold__FoldHeadline')]/h2",
+        "viewMenuBtn":"//div[contains(@class,'fold__FoldHeadActions')]/button[contains(@class,'Button__StyledButton')]",
+        "viewMenuBody":"//div[contains(@class,'tether-element')]/div[contains(@class,'styled__DropContent')]/..",
+        "viewMenu":{
+            "min":"//label[@for='switch-metric-min']/span[contains(@class,'switch__FormOptionUi')]",
+            "average":"//label[@for='switch-metric-mean']/span[contains(@class,'switch__FormOptionUi')]",
+            "max":"//label[@for='switch-metric-max']/span[contains(@class,'switch__FormOptionUi')]",
+            "deviation":"//label[@for='switch-metric-std']/span[contains(@class,'switch__FormOptionUi')]"
+        },
+        "graphicsElements":{
+            "firstDragBar":"//li[1]//div[contains(@class,'chart__BrushContainer')]",
+            "firstGraphicContent":"//li[1]//*[@class='recharts-cartesian-grid']",
+            "loadingGraphics":"//div[contains(@class,'loading-skeleton__ChartLoadingWrapper')]"
+        }
+    }
+}

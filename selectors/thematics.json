@@ -1,0 +1,9 @@
+{
+
+    "universalHeader":"//h1[contains(@class, 'page__PageMainTitle')]",
+    "checkCards":"//ol[contains(@class, 'card__CardList')]/li",
+    "thematicCards":"//li[contains(@class,'continuum__ContinuumGridItem')]//header//div//h3[text()='replString']/../../../..",
+    "discoveryNumber":"//dt[contains(@class, 'Heading__Overline-sc' ) and contains(text(),'Discover')]/following-sibling::dd[1]/a",
+    "datasetsNumber":"//dt[contains(@class, 'Heading__Overline-sc' ) and contains(text(),'Dataset')]/following-sibling::dd[1]/a",
+    "cardElemQuantity":"//ol[contains(@class,'card__CardList')]/li"
+}

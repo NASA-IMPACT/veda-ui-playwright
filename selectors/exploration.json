@@ -1,0 +1,34 @@
+{
+    "calendar_controls":{
+        "monthBtns":"//div[contains(@class,'react-calendar__year-view__months')]/button/abbr[text()='changevariable']/..",
+        "changeYearBtn":"//button[contains(@class,'react-calendar__navigation__label')]",
+        "yearInput":"//input[@id='date-picker-input-date']",
+        "inputSectionBtn":"//a[@title='Select Input tab']/..",
+        "calendarSectionBtn":"//a[@title='Select Calendar tab']/..",
+        "dateSelectedLabel":"//h1[@data-testid='devseedui-current-date']",
+        "saveBtn":"//button[@aria-label='Save date selection']"
+    },
+    "dateControls":{
+        "calendarBtn":"//article[selectvar]//div[contains(@class,'toolbar__Toolbar')]//*[contains(@class,'calendar')]/..",
+        "dateLabel":"//article[1]//div[contains(@class,'panel__WidgetItem')]/following-sibling::div[contains(@class,toolbat__Toolbar-sc)]/preceding-sibling::div/div/h4",
+        "layerNames":{
+            "no2":"//div[@id='layer-no2-monthly']/../..",
+            "no2_Diff":"//div[@id='layer-no2-monthly-diff']/../.."
+        },
+        "layerInfoButton":"//h4[contains(@class,'Heading-sc') and text()='changevar']/../following-sibling::div[contains(@class,'toolbar__Toolbar-sc')]/button",
+        "layerInfoContent":{
+            "no2":"//div[@id='accordion-layer-no2-monthly-content']/div",
+            "no2_Diff":"//div[@id='accordion-layer-no2-monthly-diff-content']/div"
+        },
+        "switchToggleComparison":"//input[@name='compare-date-toggle']/following-sibling::span[contains(@class,'switch__FormOptionUi')]"
+    },
+    "mapElements":{
+        "mapDateLabel":"//div[contains(@class,'map-message__Message')]",
+        "mapCanvas":"//div[1]/div/canvas[@class='mapboxgl-canvas']",
+        "layerSelectedName":"//h3[contains(@class,'layer-legend__LayerLegendTitle')]",
+        "layerSelectedInfoContent":"//div[@class='scroll-inner']",
+        "layerSelectedInfoButton":"//dl[contains(@class,'layer-legend')]//preceding-sibling::div[contains(@class,'panel__WidgetItemHGroup')]//button",
+        "swiperVerticalComparison":"//div[@class='compare-swiper-vertical']",
+        "swiperVerticalDiv":"//div[@class='mapboxgl-compare']"
+    }
+}

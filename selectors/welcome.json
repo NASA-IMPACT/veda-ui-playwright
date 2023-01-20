@@ -1,0 +1,5 @@
+{
+
+    "welcomeHeader":"//h1[contains(@class, 'page__PageMainTitle')]",
+    "thematicCards":"//ol[contains(@class, 'card__CardList')]/li"
+}
