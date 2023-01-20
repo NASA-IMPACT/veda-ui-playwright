@@ -1,0 +1,9 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+*.png
+tests/discoveryTest.spec.js-snapshots/
+tests/analysisTest.spec.js-snapshots/
+tests/overviewTest.spec.js-snapshots/
+tests/explorationTest.spec.js-snapshots/

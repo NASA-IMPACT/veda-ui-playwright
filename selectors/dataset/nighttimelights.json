@@ -1,0 +1,23 @@
+{
+    "FirstParagraphHead":"//div[contains(@class,'PageHeroBlockBeta')]/p[contains(@class,'Heading__Lead')]",
+    "ExploreDataBtn":"//div[contains(@class,'PageHeroBlockBeta')]/div[contains(@class,'PageActions')]/a",
+    "FirstBodyParagraph":"//div[contains(@class,'hug__Hug')][1]/div[contains(@class,'Prose-sc')]/p[1]",
+    "SecondBodyParagraph":"//div[contains(@class,'hug__Hug')][1]/div[contains(@class,'Prose-sc')]/p[2]",
+    "FirstSubtitle":"//div[contains(@class,'hug__Hug')][2]/div[contains(@class,'Prose-sc')]/h2",
+    "ThirdBodyParagraph":"//div[contains(@class,'hug__Hug')][2]/div[contains(@class,'Prose-sc')]/p[1]",
+    "FourthBodyParagraph":"//div[contains(@class,'hug__Hug')][2]/div[contains(@class,'Prose-sc')]/p[2]",
+    "SecondSubtitle":"//div[contains(@class,'hug__Hug')][3]/div[contains(@class,'Prose-sc')]/h2",
+    "FifthBodyParagraph":"//div[contains(@class,'hug__Hug')][3]/div[contains(@class,'Prose-sc')]/p[1]",
+    "SixthBodyParagraph":"//div[contains(@class,'hug__Hug')][3]/div[contains(@class,'Prose-sc')]/p[2]",
+    "ThirdSubtitle":"//div[contains(@class,'hug__Hug')][4]/div[contains(@class,'Prose-sc')]/h2",
+    "SeventhBodyParagraph":"//div[contains(@class,'hug__Hug')][4]/div[contains(@class,'Prose-sc')]/p",
+    "FourthSubtitle":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/h2",
+    "FifthSubtitle":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/h3[1]",
+    "FirstVignette":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/ul[1]/li/a",
+    "SixthSubtitle":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/h3[2]",
+    "SecondVignette":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/ul[2]/li/a",
+    "SeventhSubtitle":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/h3[3]",
+    "ThirdVignette":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/ul[3]/li[1]/a",
+    "FourthVignette":"//div[contains(@class,'hug__Hug')][5]/div[contains(@class,'Prose-sc')]/ul[3]/li[2]/a",
+    "PageFooter":"//footer[contains(@class,'page-footer')]"
+}

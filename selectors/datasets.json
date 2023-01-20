@@ -1,0 +1,9 @@
+{
+    "universalCard":"//ol[contains(@class, 'card__CardList')]/li//h3[contains(text(),'varreplace')]/../../../..",
+    "universalHeader":"//h1[contains(@class, 'page__PageMainTitle')]",
+    "buttons":{
+        "Overview":"//a[contains(@class,'nav__LocalMenuLink') and text()='Overview']",
+        "Exploration":"//a[contains(@class,'nav__LocalMenuLink') and text()='Exploration']",
+        "Usage":"//a[contains(@class,'nav__LocalMenuLink') and text()='Usage']"
+    }
+}

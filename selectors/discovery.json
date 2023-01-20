@@ -1,0 +1,57 @@
+{
+    "thematicAreas": {
+        "universalCard":"//li[contains(@class,'continuum__ContinuumGridItem')]//header//div//h3[text()='varreplace']/../../../..",
+        "universalHeader":"//h1[contains(@class, 'page__PageMainTitle')]",
+        "CovidView": {
+            "FeatureDatasetSubtitle":"//h2[text()='Featured dataset']",
+            "AirQualityCovidCard":"//h3[text()='Air Quality and COVID-19']//../../../../../div",
+            "AirQualityCovidView":{
+                "GoingThroughChangesSubtitle":"//h2[text()='Going through changes']",
+                "GTCFirstPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'With people largely confined')]",
+                "GTCSecondPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'As the pandemic')]",
+                "GTCThirdPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'Those pollutants with short lifespans')]",
+                "GTCFourthPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'Today, air quality levels')]",
+                "WhatMakesAirSubtitle":"//h2[text()='What Makes Air Quality Good or Bad?']",
+                "WMAFirstPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'Smog is the hazy curtain')]",
+                "WMASecondPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'During lockdowns, satellites observed')]",
+                "WMAThirdPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'In Los Angeles, NASA scientists')]",
+                "CitiesExperiencingClearerSubtitle":"//h2[text()='Cities Experiencing Clearer Air During Lockdowns']",
+                "CECFirstPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'Cities across South America')]",
+                "LikeFlippingaSwitchSubtitle":"//h2[text()='Like Flipping a Switch: Lockdowns and NO2']",
+                "SeasonalChangesSubtitle":"//h2[text()='Seasonal Changes in NO2']",
+                "SCFirstPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'For example, nitrogen dioxide typically')]",
+                "SeeingAirPollutionSubtitle":"//h2[text()='Seeing Air Pollution from Space']",
+                "ReinforcingMeasurementsSubtitle":"//h2[text()='Reinforcing Measurements: Nighttime Lights']",
+                "RMFirstPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'These data, collected by the')]",
+                "MeasuringAirPollutionSubtitle":"//h2[text()='Measuring Air Pollution on the Ground at Airports']",
+                "MAPFirstPharagraph":"//div[contains(@class,'hug__Hug')]/figure/following-sibling::div/p[contains(text(),'They are comparing')]",
+                "MAPSecondPharagraph":"//div[contains(@class,'Prose-sc')]/p[contains(text(),'By September, however, satellites revealed the airport had reemerged')]",
+                "SeeingReboundsSubtitle":"//h2[text()='Seeing Rebounds in NO2']",
+                "ViewFooter":"//dl[contains(@class,'footer')]//dt[text()='NASA official']",
+                "Maps":{
+                    "FirstMap":{
+                        "FirstElement":"//div[@id='map-1']/div[1]",
+                        "SecondElement":"//div[@id='map-1']/div[2]",
+                        "ThirdElement":"//div[@id='map-1']/div[3]"
+                    },
+                    "SecondMap":{
+                        "FirstElement":"//div[@id='map-2']/div[1]",
+                        "SecondElement":"//div[@id='map-2']/div[2]",
+                        "ThirdElement":"//div[@id='map-2']/div[3]"                 
+                    },
+                    "ThirdMap":{
+                        "FirstElement":"//div[@id='map-3']/div[1]",
+                        "SecondElement":"//div[@id='map-3']/div[2]",
+                        "ThirdElement":"//div[@id='map-3']/div[3]"                 
+                    },
+                    "FourthMap":{
+                        "FirstElement":"//div[@id='map-4']/div[1]",
+                        "SecondElement":"//div[@id='map-4']/div[2]",
+                        "ThirdElement":"//div[@id='map-4']/div[3]"                 
+                    }
+                }
+            
+            }
+        }
+    }
+}
